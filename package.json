@@ -1,0 +1,16 @@
+{
+  "name": "euler-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh+git://git@github.com/jschloer/euler-ts.git",
+  "author": "Jason Schloer <jschloer@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "p": "ts-node"
+  },
+  "dependencies": {
+    "prettier": "^1.15.3",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  }
+}
