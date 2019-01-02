@@ -28,5 +28,15 @@ function squareOfSum(num: number) {
 function squareDiff(num: number) {
   return squareOfSum(num) - sumOfSquares(num);
 }
+function combinedSquareDiff(num: number) {
+  let squareSum = 0;
+  let sumSquare = 0;
+  for (let i = 1; i <= num; i++) {
+    squareSum += i;
+    sumSquare += i * i;
+  }
+  return squareSum * squareSum - sumSquare;
+}
 console.log(`10: ${squareDiff(10)}`);
 console.log(`100: ${squareDiff(100)}`);
+console.log(`100: ${combinedSquareDiff(100)}`);
